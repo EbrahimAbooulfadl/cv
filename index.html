@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Saul Codeman</title>
+    <meta name="description" content="short sad story" />
+    <meta name="charset" content="UTF-8" />
+    <script> </script>
+    <link rel="stylesheet" href="mystyle.css" />
+    <script src="https://kit.fontawesome.com/17e03cc99e.js" crossorigin="anonymous"></script>
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+    <!--formating elements :
+                    <b>=>       bold
+                    <strong>=>  bold (important text)
+                    <i>=>       italic 
+                    <em>=>      italic (important text)
+                    <u>=>       undelined text
+                    <mark>=>    marked text 
+                    <small> =>  smaller text
+                    <del>  =>   deleted text (line through)
+                    <ins> =>    inserted text (under lined)
+                    <sub> =>    subscript   (h'2'o)
+                    <sup> =>    superscript (el 2os)
+                    <span> =>   to isolate words inside a paragraph
+                    <br>   =>   breaker (new line)
+                          
+                                            -->
+
+
+    <!-- div = you can consider it as a container for elements 
+                u can give them one styling -->
+
+
+
+    <!-- Entities => symbols (<,>,&,etc..) ex < = &lt; -->
+
+    <table>
+        <tr>
+            <td>
+                <img src="images/SaulCodeman.png" alt="image not available">
+            </td>
+            <td>
+                <H1><strong>
+                        Saul Codeman</strong></H1>
+                <br>
+                <p id="job">Software Developer</p>
+                <div class="phonenumber"> <i class="fa-solid fa-location-dot" style="text-align: left;"></i> </i>
+                    Cairo,Egypt
+                    <div class="phonenumber"> <i class="fa-solid fa-phone"> </i> (+2)01014621673</div>
+                </div>
+
+            </td>
+        </tr>
+    </table>
+
+
+
+
+
+    <!-- <img> attributes:
+            src => path / link / (
+                '/'=> enter
+                '../'=> back
+            )
+            alt=> alternative text
+        
+             -->
+
+    <div class="try">
+
+    </div>
+    <div style="width: max-content;margin: auto;">
+        <p class="Introduction"> &QUOT;A team player, and a techie with strong eye for detail and tenacity
+            to never quit
+            on something until it is absolutely
+            perfect, Eager to become a part of a team that would develop, and create mobile and web applications to
+            match the
+            needs
+            of industrial clients&QUOT;</p>
+    </div>
+
+    <!-- 
+    <div class="card">
+        <img src="images/profile_picture.jpg" alt="image not available" id="cardimg">
+        <h1>Ebrahim Aboulfadl</h1>
+        <p>Software Developer</p>
+        <i class="fa-solid fa-phone"> </i> (+2)01014621673
+
+
+
+
+    </div> -->
+
+
+
+    <!--
+                 lists 
+                    <ul> => unordered list
+                    <ol>=> orderd list
+                    <li> => list item 
+                    <dl>=> description list
+                    <dt>=> description term
+                    <dd>=> description of the term (u can do maltible dd)
+
+                note: you can do nested lists  
+                lists attributes:
+                    -reversed=reverse the ordering (ol)
+                    - start= starting number (ol)
+                    - tybe= type of ordering (1/A/a/I/i)
+                  -->
+
+    <h2>Technical Skills</h2>
+    <H3>Flutter Developement</H3>
+    <br>
+    <ul>
+        <li>Dart</li>
+        <li>Firebase</li>
+        <li>Rest APIs</li>
+        <li>Bloc Statemanagement</li>
+        <li>SqfLite</li>
+    </ul>
+    <br>
+
+    <H3>Web Developement</H3>
+    <br>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+    </ul>
+
+
+
+
+
+
+
+
+    <!-- <table> = table 
+                <thead> table header
+                <tbody> table fbody
+                <tfoot> table footer
+                <tr>    table row
+                <td>    data cells
+                <th>    header data cells (bold)
+                <caption>   title of the table
+            table attributes:
+                    - border  (cs prefered)
+                    - cell padding  (cs prefered)
+            <td > attribuites
+                - colspan to merge multiple cells ex colspan = 3
+        -->
+    <table hidden>
+        <thead>
+            <tr>
+                <th> Name</th>
+                <th> Phone</th>
+                <th> available time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ebrahim Aboulfadl</td>
+                <td style="color: blue; background-color: rgba(0, 0,255, 0.2);">(+2)01014621673</td>
+                <td> 8.00 am to 5.00 pm</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">Updated feb 15 2023</th>
+
+            </tr>
+        </tfoot>
+    </table>
+    <!-- <hr> horizontal rowing (seperator) -->
+    <hr hidden>
+
+
+
+    <!-- <a> anchor (link) element attributes:
+                
+            href=> el link (momkn yb2a page gambak momkn yb2a id bta3 element)
+            title=> lama tw2f el mouse 3aleeh
+            target=> tefta7 el saf7a fe new tab
+            been el tags el text  -->
+    <br>
+    <br>
+
+    <h2>contact me
+    </h2>
+    <br>
+
+    <footer>
+        <a href="https://web.facebook.com/EAboulfadl/" target="_blank" title="Ebrahim facebook"><i
+                class="fa-brands fa-facebook"></i></i> facebook</a>
+        <a href="https://twitter.com/EbrahimFadll" target="_blank" title="Ebrahim twitter"><i
+                class="fa-brands fa-twitter"></i> twitter </a>
+        <a href="https://www.linkedin.com/in/ebrahim-aboulfadl-975549223/" target="_blank" title="Ebrahim's Linkedin"><i
+                class="fa-brands fa-linkedin"></i> linkedIn</a>
+        <a href="mailto:ebrahimaboulfadl@gmail.com" title="Ebrahim's email"><i class="fa-solid fa-envelope"></i>
+            email</a>
+
+
+    </footer>
+
+
+</body>
+
+</html>

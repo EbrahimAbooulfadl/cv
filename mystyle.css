@@ -1,0 +1,197 @@
+body {
+    background-color: white;
+    color: white;
+    background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+    background-size: auto;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    line-height: 1;
+
+
+
+}
+
+.card {
+    width: 500px;
+    height: 3.2cm;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    border: 1px dotted white;
+    line-height: 0.7cm;
+}
+
+h2 {
+    font-size: x-large;
+    display: inline-block;
+    padding: 8px;
+    border: 1px dashed white;
+}
+
+h3 {
+    font-size: medium;
+
+}
+
+h1 {
+    color: #ebe5e5;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+}
+
+p {
+    color: #ebe5e5;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+
+
+}
+
+#job {
+    color: #ebe5e5;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    display: inline;
+    border-right: solid 3px red;
+    padding-right: 10px;
+    border-left: solid 3px red;
+    padding-left: 10px;
+    /* border-bottom: solid 3px red;
+    padding-bottom: 10px;
+     */
+
+
+}
+
+/* .card {
+    background-color: red;
+    width: 400px;
+    position: relative;
+    height: 180px;
+    padding-left: 150px;
+    pad
+    vertical-align: middle;
+}
+
+#cardimg {
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+} */
+
+div.try {
+    width: max-content;
+    margin: auto;
+    position: relative;
+}
+
+
+img {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    float: left;
+
+
+
+}
+
+
+
+li {
+
+    color: wheat;
+    text-align: center;
+    display: inline;
+    padding: 8px;
+    border-radius: 15px;
+    border: 1px solid white;
+    margin-right: 15px;
+}
+
+
+a {
+    border-style: solid;
+    border-width: 2px;
+    color: red;
+    border-radius: 30px;
+    background-color: rgb(250, 250, 250);
+    color: black;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 10px;
+    text-decoration-line: none;
+
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+
+
+    border-radius: 30px;
+}
+
+a:active {
+    color: blue;
+    background-color: black;
+    border-radius: 30px;
+}
+
+table,
+th,
+td {
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+footer {
+    margin: auto;
+
+
+
+
+}
+
+p.Introduction:hover {
+    background-color: #73A6D6;
+    color: #000;
+    outline: dashed #fff;
+}
+
+p.Introduction {
+    text-align: center;
+    margin-top: 50px;
+    font-size: larger;
+    letter-spacing: 2px;
+    word-spacing: 2;
+    font-weight: lighter;
+    outline-offset: 2px;
+    outline-style: dashed;
+    text-transform: none;
+    border: 2px solid black;
+    text-align-last: center;
+    text-decoration-line: none;
+    font-family: 'Courier New', Courier, monospace;
+
+    padding: 20px;
+    width: 600px;
+    background-color: rgba(245, 245, 245, 0.1);
+}
+
+.name {
+    position: absolute;
+    bottom: 0;
+    color: black;
+}
